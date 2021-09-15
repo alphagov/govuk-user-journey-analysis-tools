@@ -1,4 +1,4 @@
-# How to generate the Reverse Path tool
+# How to execute the Reverse Path tool
 
 > For detailed assumptions and caveats around using this tool, see the [assumptions and caveats log][assumptions].
 
