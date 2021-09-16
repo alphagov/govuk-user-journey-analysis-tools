@@ -7,7 +7,7 @@
    - Unzip the `govuk-user-journey-analysis-tools` folder and go to `notebooks`
    - Save `reverse-path-tool` notebook to your Google Drive account
 
-   ![GitHub code button](images/github-code-button.png)
+  ![GitHub code button](images/github-code-button.png)
 
 
 2. Open up the `reverse-path-tool` notebook in Google Colab
