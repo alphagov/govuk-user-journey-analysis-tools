@@ -9,6 +9,7 @@
 
    ![GitHub code button](images/github-code-button.png)
 
+
 2. Open up the `forward-path-tool` notebook in Google Colab
  - Go to <https://colab.research.google.com/>
  - Navigate to Google Drive and open the notebook
@@ -50,13 +51,16 @@ You are now ready to run the notebook to execute the forward path tool. To run a
 
      ![Select the `Run Anyway` button](images/run-anyway.png)
 
+
 2. Next, edit the `Set query parameters` cell.
    - There are a number of query parameters that are mandatory to set.
    - Mandatory: the date range for the analyses to run, the page path of interest, the number of stages to include (i.e. the number of pages/events the journeys will be subsetted by), whether to include page and/or event hits, and the device category(ies) included in the analysis.
    - Optional: whether query strings are removed from the page path of interest, whether page paths associated with events are appended with an [E], whether page paths associated with events are appended with event information event category, event action, and/or event label, whether journeys that include the entrance page should be flagged, whether refreshes of the page of interest should be removed, and finally whether search pages only show the search content type, and search keywords.
 
+
 3. Once you are happy with the query parameters, ensure the cell is selected, select `Runtime`, then `Run after`
    - The notebook will run each cell following the `Set query parameters` cell one at a time.
+
 
 4. The notebook should automatically scroll down to `cell 5`. If you are waiting what seems like a long time, then manually scroll down to `cell 5`.
    - This cell executes a dry run for the query, which estimates the number of gigabytes read by the query
@@ -65,6 +69,7 @@ You are now ready to run the notebook to execute the forward path tool. To run a
      something else, the query will not be executed, and the code will stop running
 
      ![Dry run prompt to confirm estimated query costs](images/dry-run-prompt-reverse-path.png)
+
 
 5. A local copy of the data generated is exported in a CSV file.
   - If no files are downloaded, check the end of the URL search bar. If you see a download icon with a red cross (as shown below), select the icon and change the option to `Always allow....` before clicking `Done`
