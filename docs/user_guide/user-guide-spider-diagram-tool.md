@@ -97,5 +97,5 @@ Click the play symbol.
 
      ![Download multiple files option](images/download-multiple-files.png)
 
-[assumptions]: ../aqa/spider-diagram-tool-assumptions-caveats.md
+[assumptions]: ../aqa/assumptions-caveats-spider-diagram-tool.md
 [repository]: https://github.com/alphagov/govuk-spider-diagram-tool

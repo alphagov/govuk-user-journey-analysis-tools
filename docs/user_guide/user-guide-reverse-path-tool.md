@@ -11,12 +11,9 @@
 
 
 2. Open up the `reverse-path-tool` notebook in Google Colab
- - Go to <https://colab.research.google.com/>
- - Navigate to Google Drive and open the notebook
- - You may need to 'connect' the notebook to be associated with Google Colab the first time you open a Jupyter
-   notebook from Google Drive. To do this, look for the link at the top-centre of the page which says something
-   like `Connect more apps` (see screenshot below), search for `Google Colaboratory` and then accept any required
-   permissions it asks for
+   - Go to <https://colab.research.google.com/>
+   - Navigate to Google Drive and open the notebook
+   - You may need to 'connect' the notebook to be associated with Google Colab the first time you open a Jupyter notebook from Google Drive. To do this, look for the link at the top-centre of the page which says something like `Connect more apps` (see screenshot below), search for `Google Colaboratory` and then accept any required permissions it asks for
 
    ![Open notebook in Google Colab button](images/open-google-colab.png)
 
@@ -72,10 +69,10 @@ You are now ready to run the notebook to execute the reverse path tool. To run a
 
 
 5. A local copy of the data generated is exported to a CSV file.
-  - If no files are downloaded, check the end of the URL search bar. If you see a download icon with a red cross (as shown below), select the icon and change the option to `Always allow....` before clicking `Done`
+   - If no files are downloaded, check the end of the URL search bar. If you see a download icon with a red cross (as shown below), select the icon and change the option to `Always allow....` before clicking `Done`
 
      ![Download multiple files option](images/download-multiple-files.png)
 
 
-[assumptions]: ../aqa/reverse-path-tool-assumptions-caveats.md
+[assumptions]: ../aqa/assumptions-caveats-reverse-path-tool.md
 [repository]: https://github.com/alphagov/govuk-user-journey-analysis-tools
