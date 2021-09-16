@@ -1,17 +1,15 @@
 # `govuk-user-journey-analysis-tools`
 
 Data analysis pipelines to investigate distinct user journey behaviour across GOV.UK:
-1. Spider diagram tool
 
-    Visualisation displaying entry and exit data of a [GOV.UK][govuk] page of interest, over a date range and device category(ies). This data is broken down further by internal/external links, and the individual entry/exit pages paired with the count and proportion of page views. Answers the question, *'In regards to page X, which page have users come from, and which page do they go to next?'*
+##### Spider Diagram tool
+Visualisation displaying entry and exit data of a [GOV.UK][govuk] page of interest, over a date range and device category(ies). This data is broken down further by internal/external links, and the individual entry/exit pages paired with the count and proportion of page views. Answers the question, *'In regards to page X, which page have users come from, and which page do they go to next?'*
 
-2. Reverse path tool
+##### Reverse Path tool
+A CSV file presenting the *previous* page paths that reached a [GOV.UK][govuk] page of interest, over a date range and device category(ies). The count and proportion of sessions visiting distinct, subsetted journeys are compiled together, and returned as a sorted list in descending order. Answers the question, *'Which pages do users visit before arriving at page X?'*
 
-   A CSV file presenting the *previous* page paths that reached a [GOV.UK][govuk] page of interest, over a date range and device category(ies). The count and proportion of sessions visiting distinct, subsetted journeys are compiled together, and returned as a sorted list in descending order. Answers the question, *'What journeys have users gone on to arrive at page X?'*
-
-3. Forward path tool
-
-  A CSV file presenting the *following* page paths that reached a [GOV.UK][govuk] page of interest., over a date range and device category(ies). The count and proportion of sessions visiting distinct, subsetted journeys are compiled together, and returned as a sorted list in descending order. Answers the question, *'What journeys do users go on to following page X?'*
+##### Forward Path tool
+A CSV file presenting the *following* page paths that reached a [GOV.UK][govuk] page of interest., over a date range and device category(ies). The count and proportion of sessions visiting distinct, subsetted journeys are compiled together, and returned as a sorted list in descending order. Answers the question, *'Which pages do users visit following page X?'*
 
 
 ## Getting started
