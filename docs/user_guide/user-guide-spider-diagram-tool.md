@@ -3,13 +3,13 @@
 > For detailed assumptions and caveats around using this tool, see the [assumptions and caveats log][assumptions].
 
 1. Download the `GDS - Spider Diagram Creator` notebook from GitHub
-   - Go to [https://github.com/alphagov/govuk-spider-diagram-tool][repository], select `Code`, and `Download Zip`
-   - Unzip the `govuk-spider-diagram-tool` folder and go to `notebooks`
-   - Save `GDS - Spider Diagram Creator` notebook to your Google Drive account
+   - Go to [https://github.com/alphagov/govuk-user-journey-analysis-tools][repository], select `Code`, and `Download Zip`
+   - Unzip the `govuk-user-journey-analysis-tools` folder and go to `notebooks`
+   - Save `Spider-diagram-tool` notebook to your Google Drive account
 
      ![GitHub code button](images/github-code-button.png)
 
-2. Open up the `GDS - Spider Diagram Creator` notebook in Google Colab
+2. Open up the `Spider-diagram-tool` notebook in Google Colab
    - Go to <https://colab.research.google.com/>
    - Navigate to Google Drive and open the notebook
    - You may need to 'connect' the notebook to be associated with Google Colab the first time you open a Jupyter
@@ -98,4 +98,4 @@ Click the play symbol.
      ![Download multiple files option](images/download-multiple-files.png)
 
 [assumptions]: ../aqa/assumptions-caveats-spider-diagram-tool.md
-[repository]: https://github.com/alphagov/govuk-spider-diagram-tool
+[repository]: https://github.com/alphagov/govuk-user-journey-analysis-tools
