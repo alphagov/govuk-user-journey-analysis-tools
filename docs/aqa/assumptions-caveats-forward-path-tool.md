@@ -56,7 +56,7 @@ Therefore, if TRUE, it will only use the first visit in a series of sequential v
 * **Quality**: GREEN
 * **Impact**: AMBER
 
-While journeys shorter than the number of desired stages are always included, journeys longer than the number of desired stages will not be accurately represented. For example, if `NUMBER_OF_STAGES` = 2, and the journey consists of 3 stages, then the user of the tool will not be provided with the full journey (i.e. the 3rd page path). Therefore, this journey will be amalgamated with other journeys that consist of the same 2 page paths (`NUMBER_OF_STAGES = 2`), even if further page paths differ.
+While journeys shorter than the number of desired stages are always included, journeys longer than the number of desired stages will not be accurately represented. For example, if `NUMBER_OF_STAGES = 2`, and the journey consists of 3 stages, then the user of the tool will not be provided with the full journey (i.e. the 3rd page path). Therefore, this journey will be amalgamated with other journeys that consist of the same 2 page paths (`NUMBER_OF_STAGES = 2`), even if further page paths differ.
 
 ### Assumption 5: GOV.UK search page paths are assumed to have the format /search/{TYPE}?keywords={KEYWORDS}{...}, where {TYPE} is the GOV.UK search content type, {KEYWORDS} are the search keywords, where each keyword is separated by +, and {...} are any other parts of the search query that are not keyword-related (if they exist).
 
