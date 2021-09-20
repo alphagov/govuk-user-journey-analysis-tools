@@ -18,10 +18,7 @@
    ![Open notebook in Google Colab button](images/open-google-colab.png)
 
 
-3. Once you have associated Jupyter notebooks with Google Colab, the notebook should open, and you should be presented
- with a screen similar to the screenshot below:
-
- ![GDS - Spider Diagram Creator notebook](images/google-colab-notebook.png)
+3. Once you have associated Jupyter notebooks with Google Colab, the notebook should open
 
 ## Running the notebook
 
