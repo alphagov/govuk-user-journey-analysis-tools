@@ -61,7 +61,7 @@ You are now ready to run the notebook to execute the forward path tool. To run a
 
 3. Once you are happy with the query parameters, ensure the cell is selected, select `Runtime`, then `Run after`
 
-  - The notebook will run each cell following the `Set query parameters` cell one at a time.
+   - The notebook will run each cell following the `Set query parameters` cell one at a time.
 
 
 4. The notebook should automatically scroll down to `cell 5`. If you are waiting what seems like a long time, then manually scroll down to `cell 5`
@@ -75,7 +75,7 @@ You are now ready to run the notebook to execute the forward path tool. To run a
 
 
 5. A local copy of the data generated is exported in a CSV file.
-  - If no files are downloaded, check the end of the URL search bar. If you see a download icon with a red cross (as shown below), select the icon and change the option to `Always allow....` before clicking `Done`
+   - If no files are downloaded, check the end of the URL search bar. If you see a download icon with a red cross (as shown below), select the icon and change the option to `Always allow....` before clicking `Done`
 
      ![Download multiple files option](images/download-multiple-files.png)
 
