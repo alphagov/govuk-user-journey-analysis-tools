@@ -1,49 +1,41 @@
 # `govuk-user-journey-analysis-tools`
 
-Data analysis tools to uinvestigatete user journey behaviour across GOV.UK
+Data analysis pipelines to investigate distinct user journey behaviour across GOV.UK:
 
-```{warning}
-Where this documentation refers to the root folder we mean where this README.md is
-located.
-```
+##### Spider Diagram tool
+Visualisation displaying entry and exit data of a [GOV.UK][govuk] page of interest, over a date range and device category(ies). This data is broken down further by internal/external links, and the individual entry/exit pages paired with the count and proportion of page views. Answers the question, *'In regards to page X, which page have users come from, and which page do they go to next?'*
+
+##### Reverse Path tool
+A CSV file presenting the *previous* page paths that reached a [GOV.UK][govuk] page of interest, over a date range and device category(ies). The count and proportion of sessions visiting distinct, subsetted journeys are compiled together, and returned as a sorted list in descending order. Answers the question, *'Which pages do users visit before arriving at page X?'*
+
+##### Forward Path tool
+A CSV file presenting the *following* page paths that reached a [GOV.UK][govuk] page of interest., over a date range and device category(ies). The count and proportion of sessions visiting distinct, subsetted journeys are compiled together, and returned as a sorted list in descending order. Answers the question, *'Which pages do users visit following page X?'*
+
 
 ## Getting started
 
-To start using this project, [first make sure your system meets its
-requirements](#requirements).
+> ⚠️ **This repository is for version control purposes only**. You are expected to run the notebooks in
+> [Google Colab][google-colab]! For further information, see the [Background](#background) section.
 
-To be added.
+To run the tools, make sure you meet the [requirements](#requirements) first, and then follow the tool's README instructions detailed in [here][user-guide].
+
 
 ### Requirements
 
-```{note} Requirements for contributors
-[Contributors have some additional requirements][contributing]!
-```
+The following are the minimum requirements to use all tools:
 
-- Python 3.6.1+ installed
-- a `.secrets` file with the [required secrets and
-  credentials](#required-secrets-and-credentials)
-- [load environment variables][docs-loading-environment-variables] from `.envrc`
+- Access to [Google Colab][google-colab]
+- Access rights to your Google BigQuery dataset of choice
 
-To install the Python requirements, open your terminal and enter:
+If you would like to contribute to this project, see the [Contributing](#contributing) section.
 
-```shell
-pip install -r requirements.txt
-```
+### Background
 
-## Required secrets and credentials
-
-To run this project, [you need a `.secrets` file with secrets/credentials as
-environmental variables][docs-loading-environment-variables-secrets]. The
-secrets/credentials should have the following environment variable name(s):
-
-| Secret/credential | Environment variable name | Description                                |
-|-------------------|---------------------------|--------------------------------------------|
-| Secret 1          | `SECRET_VARIABLE_1`       | Plain English description of Secret 1.     |
-| Credential 1      | `CREDENTIAL_VARIABLE_1`   | Plain English description of Credential 1. |
-
-Once you've added, [load these environment variables using
-`.envrc`][docs-loading-environment-variables].
+[Google Colab][google-colab] is a new research project from Google, which allows you to run Jupyter notebooks in a
+cloud environment at no extra cost. [Jupyter Notebook][jupyter] in turn is an open-source web application that allows
+for the creation of documents with live code, which can be run to generate results on-the-fly. Data scientists at GDS
+are regular uses of Jupyter notebooks, as they can use them to clean data, test out new ideas and fine tune existing
+models.
 
 ## Licence
 
@@ -53,15 +45,16 @@ Crown copyright and available under the terms of the Open Government 3.0 licence
 
 ## Contributing
 
-[If you want to help us build, and improve `govuk-user-journey-analysis-tools`, view our
-contributing guidelines][contributing].
+If you want to help us build, and improve these tools, view our [contributing guidelines][contributing].
 
 ## Acknowledgements
 
-[This project structure is based on the `govcookiecutter` template
-project][govcookiecutter].
+This project structure is based on the [`govcookiecutter`][govcookiecutter] template project.
 
-[contributing]: ./docs/contributor_guide/CONTRIBUTING.md
-[govcookiecutter]: https://github.com/best-practice-and-impact/govcookiecutter
-[docs-loading-environment-variables]: ./docs/user_guide/loading_environment_variables.md
-[docs-loading-environment-variables-secrets]: ./docs/user_guide/loading_environment_variables.md#storing-secrets-and-credentials
+
+[contributing]: ./CONTRIBUTING.md
+[google-colab]: https://colab.research.google.com/notebooks/welcome.ipynb
+[govcookiecutter]: https://github.com/ukgovdatascience/govcookiecutter
+[govuk]: https://www.gov.uk/
+[jupyter]: https://jupyter.org/
+[user-guide]: ./docs/user_guide/
