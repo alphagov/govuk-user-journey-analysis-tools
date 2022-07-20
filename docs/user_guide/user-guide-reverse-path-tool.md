@@ -48,8 +48,8 @@ You are now ready to run the notebook to execute the reverse path tool. To run a
 
 2. Next, edit the `Set query parameters` cell.
    - There are a number of query parameters that are mandatory to set.
-   - Mandatory: the date range for the analyses to run, the page path of interest, the number of stages to include (i.e. the number of pages/events the journeys will be subsetted by), whether to include page and/or event hits, and the device category(ies) included in the analysis.
-   - Optional: whether query strings are removed from the page path of interest, whether page paths associated with events are appended with an [E], whether page paths associated with events are appended with event information event category, event action, and/or event label, whether journeys that include the entrance page should be flagged, whether refreshes of the page of interest should be removed, and finally whether search pages only show the search content type, and search keywords.
+   - Mandatory: the date range for the analyses to run, the page path of interest, whether to use the first or last hit of the desired page in the session, the number of stages to include (i.e. the number of pages/events the journeys will be subsetted by), whether to include page and/or event hits, and the device category(ies) included in the analysis.
+   - Optional: whether query strings are removed from the page path of interest, whether page paths associated with events are appended with an [E], whether page paths associated with events are appended with event information event category, event action, and/or event label, whether journeys that include the entrance page should be flagged, whether journeys that include the exit page should be flagged, whether refreshes of the page of interest should be removed, and finally whether search pages only show the search content type, and search keywords.
 
 
 3. Once you are happy with the query parameters, ensure the cell is selected, select `Runtime`, then `Run after`
@@ -70,6 +70,14 @@ You are now ready to run the notebook to execute the reverse path tool. To run a
 
      ![Download multiple files option](images/download-multiple-files.png)
 
+6. A pseduo Sankey diagram is generated to summarise the top 10 and remainder journeys. 
+   - Left click on the nodes and drag to adjust their position  
+   - Hover over the diagram and click the `Download plot as a PNG` camera icon in the top right corner of the diagram
+
+7. It is possible to also generate a Google Sheet displaying the top 10 journeys 
+   - Under the `Presenting results in Google sheets` header, type `yes` into the user input box to confirm that you want to generate a Google Sheet
+   - The URL to the Google Sheet in Google Drive is displayed in cell 21. 
+   - Note: the query will only run if you type `yes` in the user input box. If you leave the input blank or type in something else, the query will not be executed, and the code will stop running
 
 [assumptions]: ../aqa/assumptions-caveats-reverse-path-tool.md
 [repository]: https://github.com/alphagov/govuk-user-journey-analysis-tools
